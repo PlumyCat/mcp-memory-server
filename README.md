@@ -27,7 +27,7 @@ Imagine Claude with **persistent memory** that:
 ### Installation
 
 ```bash
-git clone https://github.com/YOUR_USERNAME/mcp-memory-server.git
+git clone https://github.com/PlumyCat/mcp-memory-server.git
 cd mcp-memory-server
 npm install
 npm run build
@@ -216,7 +216,7 @@ We welcome contributions! Please see our [Contributing Guidelines](CONTRIBUTING.
 ### Development Setup
 
 ```bash
-git clone https://github.com/YOUR_USERNAME/mcp-memory-server.git
+git clone https://github.com/PlumyCat/mcp-memory-server.git
 cd mcp-memory-server
 npm install
 npm run dev
@@ -232,8 +232,8 @@ npm run dev
 ## 🆘 Support
 
 - 📖 Check the [Usage Guide](docs/usage-guide.md) for examples
-- 🐛 Report issues on [GitHub Issues](https://github.com/YOUR_USERNAME/mcp-memory-server/issues)
-- 💬 Discuss on [GitHub Discussions](https://github.com/YOUR_USERNAME/mcp-memory-server/discussions)
+- 🐛 Report issues on [GitHub Issues](https://github.com/PlumyCat/mcp-memory-server/issues)
+- 💬 Discuss on [GitHub Discussions](https://github.com/PlumyCat/mcp-memory-server/discussions)
 
 ## 📄 License
 
@@ -249,7 +249,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ## ⭐ Star History
 
-[![Star History Chart](https://api.star-history.com/svg?repos=YOUR_USERNAME/mcp-memory-server&type=Date)](https://star-history.com/#YOUR_USERNAME/mcp-memory-server&Date)
+[![Star History Chart](https://api.star-history.com/svg?repos=PlumyCat/mcp-memory-server&type=Date)](https://star-history.com/#PlumyCat/mcp-memory-server&Date)
 
 ---
 
