@@ -1,0 +1,24 @@
+
+services:
+  mcp-memory-server:
+    build: .
+    container_name: mcp-memory-server
+    restart: unless-stopped
+    environment:
+      - NODE_ENV=production
+      - COSMOS_ENDPOINT=${COSMOS_ENDPOINT}
+      - COSMOS_KEY=${COSMOS_KEY}
+      - COSMOS_DATABASE_NAME=${COSMOS_DATABASE_NAME}
+      - COSMOS_CONTAINER_CONVERSATIONS=${COSMOS_CONTAINER_CONVERSATIONS}
+      - COSMOS_CONTAINER_ENTITIES=${COSMOS_CONTAINER_ENTITIES}
+      - OPENAI_API_KEY=${OPENAI_API_KEY}
+
+    volumes:
+      - ./logs:/app/logs
+
+    networks:
+      - mcp-network
+
+networks:
+  mcp-network:
+    driver: bridge
